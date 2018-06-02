@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+width:450px;
+height:400px;
+background: darkgrey; 
+margin: 100px auto;
+}
+
+.form{
+    float: left;
+    text-align: center;
+    height: 100%;
+    width: 220px;
+}
+
+.clear{
+    clear: both;
+}
+
+#selectool{
+    float: left;
+    width: 179px;
+    outline: none;
+    height: 25px;
+    margin: 20px;
+    cursor: pointer;
+    -webkit-text-fill-color: gray;
+    border-color: cyan;
+}
+
+input{
+    margin: 20px;
+    outline: none;
+    float: left;
+    width: 170px;
+    height: 25px;
+    padding-left: 5px;
+    -webkit-text-fill-color: gray;
+    border-color: cyan;
+}
+#btn{
+    background: white;
+    margin: 20px;
+    outline: none;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: cyan;
+    color: gray;
+}
+
+.result{
+    float: right;
+    width: 230px;
+    height: 100%;
+}
+h3{
+    float: left;
+    margin: 20px;
+    margin-top: 25px;
+    color: white;
+}
+
+p{
+    float: right;
+    margin-left: 10px;
+}
